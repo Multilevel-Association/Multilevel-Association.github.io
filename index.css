@@ -4,8 +4,6 @@
 
 body {
     margin: 0;
-    /* background-image: url("https://securityledger.com/wp-content/uploads/2015/12/Fotolia_92002499_S.jpg");
-    width: 100%; */
     background-color: #55acb3;
 }
 
@@ -71,7 +69,7 @@ img {
     width: 400px;
 }
 #hoi img {
-    width: 600px;
+    width: 500px;
 }
 
 h1 {
@@ -91,7 +89,8 @@ p {
     font-weight: 300;
 }
 
-#vu .container, #hoi .container {
+#vu .container, 
+#hoi .container {
     background-color: #fff;
     width: 100%;
 }
