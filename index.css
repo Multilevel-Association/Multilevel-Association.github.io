@@ -1,0 +1,108 @@
+* {
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    margin: 0;
+    /* background-image: url("https://securityledger.com/wp-content/uploads/2015/12/Fotolia_92002499_S.jpg");
+    width: 100%; */
+    background-color: #55acb3;
+}
+
+#nav-section {
+    background-color: #fff;
+}
+
+#nav-section ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px gray;
+}
+
+#nav-section ul li {
+    padding: 20px;
+}
+
+#nav-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-section ul li a:hover {
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#vu, 
+#quan,
+#hoi,
+#team {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#vu li, 
+#quan li,
+#hoi li,
+#team li {
+    font-size: 18px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    margin: 100px 50px;
+}
+
+#quan img {
+    width: 450px;
+}
+#vu img {
+    width: 400px;
+}
+#hoi img {
+    width: 600px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#vu .container, #hoi .container {
+    background-color: #fff;
+    width: 100%;
+}
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
